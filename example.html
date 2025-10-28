@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planto</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="assets/bootstrap-icons-1.13.1/bootstrap-icons.css">
+
+  <!-- Your Custom Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg custom-navbar position-relative">
+
+    <div class="container-fluid">
+      <!-- Left side: Brand  -->
+      <div class="d-flex align-items-center mt-4 ">
+        <img src="assets/images/logo.png" alt="" class="logo ">
+        <a class="navbar-brand me-4  " href="#">Planto.</a>
+
+      </div>
+      <!-- Center Nav -->
+      <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+        <ul class="navbar-nav navbar-nav-center mb-2 mb-lg-0 gap-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="plantsDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Plants Type
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="plantsDropdown">
+              <li><a class="dropdown-item" href="#">Indoor</a></li>
+              <li><a class="dropdown-item" href="#">Outdoor</a></li>
+              <li><a class="dropdown-item" href="#">Succulents</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">More</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right side: Icons -->
+      <div class=" icons d-flex align-items-center gap-4">
+        <a href="#" class="nav-link"><i class="bi bi-search"></i></a>
+        <img src="assets/images/lock.png" alt="" style="width: 19px; height: 19px;">
+      </div>
+      <!-- Toggler (moved to the end so it's on the right) -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </div>
+  </nav>
+
+
+
+
+
+  <!--botstrap JS-->
+  <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+@font-face {
+  font-family: 'font';
+  src: url('../font/Inter_18pt-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'font1';
+  src: url("../font/Inter_18pt-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'font2';
+  src: url("../font/Inter_18pt-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'font3';
+  src: url("../font/Inter_18pt-Black.ttf") format("truetype");
+}
+    .custom-navbar {
+      background-color: #180606;
+      color: #fff;
+    }
+
+    .custom-navbar .nav-link,
+    .custom-navbar .navbar-brand {
+      color: #fff;
+    }
+
+    .navbar-nav-center {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      padding-top: 30px;
+      opacity: 0.75;
+      color: #ffffff;
+    }
+
+    .logo {
+      width: 48px;
+      height: 48px;
+      top: 57px;
+      padding-left: 24px;
+      box-sizing: content-box;
+    }
+
+    .navbar-brand {
+      font-family: font3;
+      font-size: 28px;
+      line-height: 100%;
+      letter-spacing: 0;
+      padding-left: 10px;
+      padding-top: 22px;
+      opacity: 0.75;
+      color: #ffffff;
+    }
+
+    .icons {
+      padding-top: 25px;
+      padding-right: 30px;
+      opacity: 0.75;
+      color: #ffffff;
+    }
+
+    .navbar-toggler {
+      border-color: rgba(255, 255, 255, 0.5);
+      margin-left: auto;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .mobile-icons a,
+    .mobile-icons img {
+      color: white;
+      opacity: 0.75;
+    }
+
+    @media (max-width: 991px) {
+  .offcanvas-body {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .offcanvas-body .navbar-nav.adjustGap {
+    gap: 30px !important;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    text-align: left;
+  }
+
+  .navbar-nav .nav-link {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .offcanvas-icons {
+    justify-content: flex-start;
+  }
+
+  .offcanvas-body::after {
+    content: '';
+    display: block;
+    height: 20px;
+  }
+}
+
+
+
+
+

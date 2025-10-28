@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCALE</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="assets/bootstrap-icons-1.13.1/bootstrap-icons.css">
+
+  <!-- Your Custom Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <!--section 1-->
+  <div class="backgroup-image position-relative">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-50 translate-middle-x"
+      style="width: 90%; max-width: 1200px;">
+      <div class="container-fluid d-flex justify-content-between align-items-center px-0 py-4">
+
+        <!-- Left: Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo .png" class="logo" alt="Logo">
+        </a>
+
+        <!-- Right: Mobile Only (Deals Button + Toggle Icon) -->
+        <div class="d-lg-none d-flex align-items-center gap-2 ms-auto">
+          <a href="#" class="button1 text-decoration-none btn-sm btn ">View live deals</a>
+
+          <!-- Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMobile"
+            aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list d-flex justify-content-center align-items-center"></i>
+          </button>
+        </div>
+
+        <!-- Desktop Nav Links -->
+        <div class="d-none d-lg-block position-absolute start-50 translate-middle-x">
+          <ul class="navbar-nav flex-row gap-2">
+            <li class="nav-item"><a class="nav-link text-white" href="#">Deals</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">How it works</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Contact us</a></li>
+          </ul>
+        </div>
+
+        <!-- Desktop Right Language + Deals -->
+        <div class="collapse navbar-collapse d-lg-flex align-items-center gap-2 justify-content-end">
+
+          <div class="dropdown">
+            <img src="assets/images/flag.png" alt="" width="18px" height="18px" class="me-0">
+            <button class="btn btn-sm btn-no-outline dropdown-toggle" type="button" id="languageDropdownDesktop"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              EN
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdownDesktop">
+              <li><a class="dropdown-item" href="#">EN</a></li>
+              <li><a class="dropdown-item" href="#">FR</a></li>
+              <li><a class="dropdown-item" href="#">DE</a></li>
+            </ul>
+          </div>
+          <a href="#" class="button1 text-decoration-none d-none d-lg-block">View live deals</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Slide-in Menu -->
+    <div class="collapse offcanvas-right d-lg-none" id="navbarMobile">
+      <div class="mobile-menu p-4 d-flex flex-column  h-100">
+
+        <!-- Close Button -->
+        <div class="d-flex justify-content-end">
+          <button type="button" class="btn-close" data-bs-toggle="collapse" data-bs-target="#navbarMobile"
+            aria-label="Close"></button>
+        </div>
+
+        <!-- Nav Items -->
+        <ul class="navbar-nav flex-column  mt-2">
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Deals</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">How it works</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Contact us</a></li>
+        </ul>
+
+        <!-- Language Selector at Bottom -->
+        <div class="dropdown ">
+          <button class="btn btn-sm btn-no-outline dropdown-toggle" type="button" id="languageDropdown"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            EN
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+            <li><a class="dropdown-item" href="#">EN</a></li>
+            <li><a class="dropdown-item" href="#">FR</a></li>
+            <li><a class="dropdown-item" href="#">DE</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Background image -->
+    <div class="img object-fit-cover">
+      <img src="assets/images/BGimg.png" alt="" class="w-100 h-100 object-fit-cover rounded-4">
+    </div>
+    <!-- Text Layout - Positioned bottom-left with padding -->
+    <div class="text-layout position-absolute start-10 bottom-0 p-4 z-3 text-white">
+      <h1 class="heading mb-0 ">Get Bulk Prices.<br> Without Bulk Orders.</h1>
+      <p>Join construction material group deals through WhatsApp in just a few taps.</p>
+
+      <a href="#" class="button2 text-decoration-none">View live deals</a>
+
+      <a href="#" class="button2 bg-transparent  border border-1 border-white">Order via whatsapp</a>
+    </div>
+
+    <!--  -->
+    <div class="help-layout position-absolute  p-4 z-3 text-white text-center">
+      <img src="assets/images/Whatsapp.png" alt="" class="whatsapp">
+      <p class="whatsapp-text">Check the deals and join them in less than 10 seconds</p>
+
+    </div>
+  </div>
+  <!--section 2-->
+  <div class="scale-cards w-100">
+    <div class="stats-card align-items-center">
+      <div class="row">
+
+        <!-- First -->
+        <div class="col with-line">
+          <div class="inner-box">
+            <div class="data">
+              <img src="assets/images/Icon.png" alt="" width="70px" height="65px">
+              <h1 class="number">10+</h1>
+              <p>Manufacturers onboarded</p>
+            </div>
+          </div>
+        </div>
+        <!-- Line for mobile -->
+        <div class="mobile-line"></div>
+        <!-- Second -->
+        <div class="col with-line">
+          <div class="inner-box">
+            <div class="data">
+              <img src="assets/images/icon1.png" alt="" width="70px" height="65px">
+              <h1 class="number">25%</h1>
+              <p>Average price reduction</p>
+            </div>
+          </div>
+        </div>
+        <!-- Line for mobile -->
+        <div class="mobile-line"></div>
+        <!-- Third -->
+        <div class="col third-col">
+          <div class="inner-box">
+            <div class="data">
+              <img src="assets/images/Vector.png" alt="" width="70px" height="65px">
+              <h1 class="number">45+ Tons</h1>
+              <p>Materials delivered</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--section 3-->
+  <div class="section3">
+    <div class="container">
+      <div class="text-with-divider">
+        <div class="divider"></div>
+        <p class="text">Getting started</p>
+
+      </div>
+      <h3 class="heading1">How It Works</h3>
+      <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ut viverra eros euismod.</p>
+      <div class="buttons">
+        <a href="#" class="button2 text-decoration-none">View live deals</a>
+        <a href="#" class="button2 bg-transparent  border border-1 border-black text-black">Order via whatsapp</a>
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="row">
+        <div class="col-7">
+          <!-- Left column  -->
+          <div class="col-4 ">
+            <div class="row with-line1 ">
+              <img src="assets/images/Illus.png" alt="" class="imgs">
+              <p class="row-text">Browse Ongoing Group Deals</p>
+            </div>
+            <div class="row with-line1">
+              <img src="assets/images/illus1.png" alt="" class="imgs">
+              <p class="row-text">Join the Deal via WhatsApp</p>
+            </div>
+            <div class="row ">
+              <img src="assets/images/Asset.png" alt="" class="imgs">
+              <p class="row-text">Get Delivery When the Deal Closes</p>
+            </div>
+          </div>
+
+          <div class="col-8 d-flex align-items-center justify-content-center">
+            <img src="assets/images/Cement.png" alt="" class="img-fluid cement-img">
+          </div>
+          <!-- Arrows -->
+          <div class="custom-arrow"></div> <!-- First  arrow -->
+          <div class="custom-arrow1"></div> <!-- second  arrow -->
+          <div class="custom-arrow2"></div> <!-- third arrow -->
+
+        </div>
+
+        <div class="col-5 with-line2">
+          <!-- Right column -->
+          <div class="right-side">
+            <div class="card1">
+              <div class="card-img">
+                <img src="assets/images/img1.png" alt="">
+              </div>
+              <div class="card-data">
+                <h4 class="card-title">Crushed Stones</h4>
+                <div class="location">
+                  <img src="assets/images/location.png" alt="" width="20px" height="20px">
+                  <p>Riyadh, SA</p>
+                  <div class="time">12 days : 23 hours</div>
+
+                </div>
+                <div class="price">1,240 SAR</div>
+              </div>
+            </div>
+            <div class="card2">
+              <div class="card-img">
+                <img src="assets/images/img2.png" alt="">
+              </div>
+              <div class="card-data">
+                <h4 class="card-title">Al Qassim Cement Blocks</h4>
+                <div class="location">
+                  <img src="assets/images/location.png" alt="" width="20px" height="20px">
+                  <p>Riyadh, SA</p>
+                  <div class="time">12 days : 23 hours</div>
+
+                </div>
+                <div class="price">1,240 SAR</div>
+              </div>
+            </div>
+            <div class="card3">
+              <div class="card-img">
+                <img src="assets/images/img3.png" alt="">
+              </div>
+              <div class="card-data">
+                <h4 class="card-title">Al Qassim cement</h4>
+                <div class="location">
+                  <img src="assets/images/location.png" alt="" width="20px" height="20px">
+                  <p>Riyadh, SA</p>
+                  <div class="time">12 days : 16 hours</div>
+
+                </div>
+                <div class="price">15,00 SAR</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--section 4-->
+  <div class="section4">
+    <img src="assets/images/Mask.png" alt="mask image" class="mask">
+    <div class="container">
+      <div class="s4data">
+        <div class="s4data-withdivider">
+          <div class="divider"></div>
+          <p class="text">About us</p>
+        </div>
+        <p class="help">Helping retailers save together.</p>
+        <p class="help-detail full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ut viverra eros
+          euismod. Vestibulum, diam suspendisse adipiscing diam quis. Et id volutpat sit odio venenatis a dui. Pharetra,
+          quam non, amet pretium tincidunt sem tincidunt fringilla. Convallis ac viverra egestas in bibendum metus,
+          elit. Sagittis lacinia sit.</p>
+
+        <p class="help-detail short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ut viverra eros
+          euismod. Vestibulum.</p>
+
+        <div class="vector-container mobile-only">
+          <img src="assets/images/Vector1.png" alt="" class="Vector1">
+          <img src="assets/images/Mask1.png" alt="" class="mask1">
+        </div>
+
+        <a href="#" class="button2 text-decoration-none">About our company</a>
+      </div>
+      <div class="vector-container desktop-only">
+        <img src="assets/images/Vector1.png" alt="" class="Vector1">
+        <img src="assets/images/Mask1.png" alt="" class="mask1">
+      </div>
+
+
+    </div>
+    <img src="assets/images/Maskbottom.png" alt="mask image" class="mask-bottom">
+  </div>
+
+  <!--section 5-->
+  <div class="section5">
+    <div class="features">
+      <div class="text-with-divider">
+        <div class="divider"></div>
+        <p class="text">Features</p>
+      </div>
+      <p class="key-feature">Our Key Features</p>
+      <p class="help-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ut viverra eros euismod.
+        Vestibulum, diam suspendisse adipiscing diam quis. </p>
+    </div>
+    <div class="image-txt">
+      <img src="assets/images/Union.png" alt="" class="union">
+      <img src="assets/images/Union1.png" alt="" class="union-mobile">
+      <div class="text-on-img">
+        <div class="row ">
+          <div class="col">
+            <img src="assets/images/safetycertificate.png" alt="" width="56px" height="56px">
+            <h5>Guaranteed Prices Lower Than Market</h5>
+            <p>Join other yards and unlock bulk prices normally reserved for big factories. Save 5–15% on essential
+              materials like blocks, cement, and more.</p>
+          </div>
+
+          <div class="col with-line1 position-relative">
+            <img src="assets/images/gardenwhatsapp.png" alt="" width="56px" height="56px">
+            <h5>Full Ordering Through WhatsApp</h5>
+            <p>Join other yards and unlock bulk prices normally reserved for big factories. Save 5–15% on essential
+              materials like blocks, cement, and more.</p>
+          </div>
+
+          <div class="col with-line1 position-relative">
+            <img src="assets/images/deliverytruck.png" alt="" width="56px" height="56px">
+            <h5>Delivery Included</h5>
+            <p>Join other yards and unlock bulk prices normally reserved for big factories. Save 5–15% on essential
+              materials like blocks, cement, and more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--section 6-->
+  <div class="section6">
+    <div class="section6data">
+      <div class="s4data-withdivider">
+        <div class="divider"></div>
+        <p class="text">testimonials</p>
+      </div>
+      <p class="s6heading">What Do Our Buyers Say?</p>
+      <div class="arro">
+        <a href="#" class="back-arrow">
+          <img src="assets/images/back.png" alt="" width="32px" height="32px">
+        </a>
+        <a href="#" class="back-arrow">
+          <img src="assets/images/next.png" alt="" width="32px" height="32px">
+        </a>
+
+      </div>
+      <div class="s6-img-with-card">
+        <img src="assets/images/Mask2.png" alt="" class="s6img">
+        <div class="card">
+          <img src="assets/images/SVG.png" alt="" class="svg">
+          <img src="assets/images/SVG1.png" alt="" class="svg1">
+          <img src="assets/images/SVG2.png" alt="" class="svg2" width="35px" height="33px">
+          <img src="assets/images/SVG3.png" alt="" class="svg3" width="35px" height="33px">
+          <h5>“WhatsApp makes the whole process easy.”</h5>
+          <p class="desktop-text">I love getting premium products at unbeatable prices just by joining a group deal.
+            It’s simple,
+            transparent, and the savings are real. I've saved hundreds already. The group-buying model makes so much
+            sense. I got a gadget for 40% less than retail because I joined a deal with others. It's a win-win for
+            everyone!</p>
+          <p class="mobile-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.
+            Cras venenatis euismod malesuada. Nullam in justo ut ante fermentum varius.
+          </p>
+          <div class="name">
+            <h6><span class="dot">·</span> Qasim Abdullah</h6>
+            <p><span class="dot">·</span> Construction Material Yard,</p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--section 7-->
+  <div class="section7">
+
+    <div class="s7data ">
+      <div class="s7data-withdivider">
+        <div class="divider"></div>
+        <p class="text">faqs</p>
+      </div>
+      <h6>We’re Just a message away!</h6>
+      <p>We’re here to support building material yards and always open to new suppliers and manufacturers who want to
+        sell in bulk.</p>
+      <div class="chat">
+        <img src="assets/images/Whatsapp.png" alt="" width="50px" height="50px">
+        <div class="chatdata">
+          <h6>Chat with us on WhatsApp</h6>
+          <p>hello@scaleksa.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="form">
+      <h5>Send Us a Message</h5>
+      <div class="form_data">
+        <div class="cntnt">
+          <div class="outer_input">
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Enter name">
+          </div>
+          <div class="outer_input">
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Enter phone number">
+          </div>
+
+        </div>
+        <div class="comment">
+          <textarea id="disabledTextInput" class="comment-control" placeholder="Enter your message..."></textarea>
+        </div>
+        <a href="#" class="button2 text-decoration-none">Send message</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!--section 8-->
+  <div class="section8">
+    <div class="s8data">
+      <div class="text-content">
+        <h6>Don’t Miss the Next Deal</h6>
+        <p>Group orders are closing fast, join now and start saving on your next delivery.</p>
+      </div>
+      <div class="butn">
+        <a href="#" class="button2 text-decoration-none">View live deals</a>
+        <a href="#" class="button2 bg-transparent border border-1 border-white">Order via whatsapp</a>
+      </div>
+    </div>
+  </div>
+
+  <!--section 9-->
+  <div class="section9">
+    <div class="sec1">
+      <div class="s7data-withdivider">
+        <div class="divider"></div>
+        <p class="text">faqs</p>
+      </div>
+      <h6>Frequently Asked Question</h6>
+      <p>Loved by millions, enjoyed in over 100 countries worldwide!</p>
+      <div class="dq">
+        <div class="icon_txt">
+          <img src="assets/images/messagedots.png" alt="" width="24px" height="24px">
+          <h6>You have different questions?</h6>
+        </div>
+        <p>Our team will answer all your questions, we ensure a quick responce</p>
+        <a href="#" class="dq_bttn text-decoration-none">Contact our team</a>
+      </div>
+    </div>
+    <div class="sec2" id="faqAccordion">
+
+      <div class="q-1">
+        <div class="question">
+          <h5>Who is Scale for?</h5>
+          <img src="assets/images/gg_add.png" alt="Toggle" width="20px" height="20px" class="toggle-icon"
+            data-bs-toggle="collapse" data-bs-target="#answer1" aria-expanded="true" aria-controls="answer1"
+            style="cursor: pointer;">
+        </div>
+        <p id="answer1" class="collapse show">
+          Scale is built for construction material yards that want to save on purchasing. It’s also for suppliers and
+          manufacturers who want to sell larger volumes more easily.
+        </p>
+      </div>
+
+      <!-- Template for other questions -->
+      <div class="q-2">
+        <div class="question">
+          <h5>How does group buying help yards?</h5>
+          <img src="assets/images/add.png" alt="Toggle" width="20px" height="20px" class="toggle-icon"
+            data-bs-toggle="collapse" data-bs-target="#answer2" aria-expanded="false" aria-controls="answer2"
+            style="cursor: pointer;">
+        </div>
+        <p id="answer2" class="collapse ">
+          Scale is built for construction material yards that want to save on purchasing. It’s also for suppliers and
+          manufacturers who want to sell larger volumes more easily.
+        </p>
+      </div>
+
+      <div class="q-2">
+        <div class="question">
+          <h5>When will my order be delivered?</h5>
+          <img src="assets/images/add.png" alt="Toggle" width="20px" height="20px" class="toggle-icon"
+            data-bs-toggle="collapse" data-bs-target="#answer3" aria-expanded="false" aria-controls="answer3"
+            style="cursor: pointer;">
+        </div>
+        <p id="answer3" class="collapse ">
+          Scale is built for construction material yards that want to save on purchasing. It’s also for suppliers and
+          manufacturers who want to sell larger volumes more easily.
+        </p>
+      </div>
+
+      <div class="q-2">
+        <div class="question">
+          <h5>What happens if the group deal doesn’t reach the target?</h5>
+          <img src="assets/images/add.png" alt="Toggle" width="20px" height="20px" class="toggle-icon"
+            data-bs-toggle="collapse" data-bs-target="#answer4" aria-expanded="false" aria-controls="answer4"
+            style="cursor: pointer;">
+        </div>
+        <p id="answer4" class="collapse">
+          Scale is built for construction material yards that want to save on purchasing. It’s also for suppliers and
+          manufacturers who want to sell larger volumes more easily.
+        </p>
+      </div>
+
+      <div class="q-2">
+        <div class="question">
+          <h5>How do I place an order?</h5>
+          <img src="assets/images/add.png" alt="Toggle" width="20px" height="20px" class="toggle-icon"
+            data-bs-toggle="collapse" data-bs-target="#answer5" aria-expanded="false" aria-controls="answer5"
+            style="cursor: pointer;">
+        </div>
+        <p id="answer5" class="collapse">
+          You can place an order through our platform by selecting the deal, entering quantity, and completing the
+          checkout process.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!--botstrap JS-->
+  <script src="assets/js/bootstrap.bundle.js"></script>
+
+
+  <script>
+    const toggleBtn = document.querySelector('.navbar-toggler');
+    const navbarMobile = document.getElementById('navbarMobile');
+
+    toggleBtn.addEventListener('click', () => {
+      navbarMobile.classList.toggle('show');
+    });
+
+    // Optional: Close when clicking the close button inside
+    const closeBtn = navbarMobile.querySelector('[data-close]');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => {
+        navbarMobile.classList.remove('show');
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggles = document.querySelectorAll('.toggle-icon');
+
+      toggles.forEach(toggle => {
+        const targetId = toggle.getAttribute('data-bs-target');
+        const target = document.querySelector(targetId);
+
+     
+        target.addEventListener('show.bs.collapse', () => {
+          toggle.src = 'assets/images/gg_add.png'; 
+        });
+
+        target.addEventListener('hide.bs.collapse', () => {
+          toggle.src = 'assets/images/add.png'; 
+        });
+      });
+    });
+  </script>
+
+</body>
+<div class="footer">
+  <div class="lay1">
+    <img src="assets/images/logo1.png" alt="" width="148" height="42px">
+    <div class="butn">
+      <a href="#" class="button2 text-decoration-none">View live deals</a>
+      <a href="#" class="button2 bg-transparent border border-1 border-white">Join via whatsapp</a>
+    </div>
+    <div class="icn">
+      <img src="assets/images/Instagram.png" alt="">
+      <img src="assets/images/Facebook.png" alt="">
+      <img src="assets/images/Twitter.png" alt="">
+      <img src="assets/images/Github.png" alt="">
+    </div>
+  </div>
+  <div class="lay2"></div>
+  <div class="lay3">
+    <p>© 2025 SCALE Inc. All rights reserved.</p>
+  </div>
+</div>
+
+</html>
