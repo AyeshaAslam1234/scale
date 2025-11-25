@@ -319,9 +319,14 @@ body {
 
 @media (max-width: 575px) {
   .container-fluid {
-    margin: 9px 15px 0 24px;
+    margin: 7px 16px 0 1px;
   }
-
+  .logo {
+        margin-left: 19px;
+        padding: 9px 0px;
+        width: 110px;
+        outline: none;
+  }
   .backgroup-image {
     position: relative;
     width: 100%;
@@ -329,7 +334,22 @@ body {
     padding: 32px;
     border-radius: 20px;
   }
-
+    .button1.btn-sm {
+        width: 110px;
+        height: 38px;
+        padding: 8px 12px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .navbar-toggler {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  padding: 8px;
+  margin-right: 2px;
+  background-color: #fff;
+  border: none;
+}
   .text-layout h1 {
     font-size: 32px;
     line-height: 1.1;
