@@ -1023,6 +1023,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin : 0px ;
 
   }
 
@@ -1040,20 +1041,20 @@ body {
   }
 
   .custom-arrow {
-    top: 147px;
-    left: 100px;
-    width: 95.22px;
-    height: 0;
-    border-top: 2px dashed #f15625;
-    transform: rotate(26.74deg);
-    z-index: 10;
-  }
+        top: 113px;
+        left: 100px;
+        width: 55.22px;
+        height: 0;
+        border-top: 2px dashed #f15625;
+        transform: rotate(41.74deg);
+        z-index: 10;
+    }
 
   .custom-arrow1 {
     position: absolute;
     left: 106px;
     top: 259px;
-    width: 85.22px;
+    width: 39.22px;
     height: 0;
     border-top: 2px dashed #f15625;
     transform: rotate(0.0deg);
@@ -1064,21 +1065,20 @@ body {
     position: absolute;
     top: 373px;
     left: 106px;
-    width: 95.22px;
+    width: 68.22px;
     height: 0;
     border-top: 2px dashed #f15625;
-    transform: rotate(-19.26deg);
+    transform: rotate(-38.26deg);
     z-index: 10;
   }
 
-  .col-8 .cement-img {
-    width: 196px;
-    height: 177.48px;
-    position: absolute;
-    right: 18px;
-    top: 61%;
-
-  }
+ .col-8 .cement-img {
+        width: 165px;
+        height: 176.48px;
+        position: absolute;
+        right: 0px;
+        top: 57%;
+   }
 
   .container1 .row {
     display: flex !important;
@@ -1133,7 +1133,7 @@ body {
 
   .card1,
   .card2 {
-    width: 245px;
+    width: 221px;
     height: 298px;
     border-radius: 4px;
 
@@ -1150,14 +1150,14 @@ body {
 
   /* Overlap card2 on card1 */
   .card2 {
-    margin-left: -110px;
+    margin-left: -114px;
     /* Adjust for correct overlap */
     z-index: 1;
   }
 
   /* Card3 centered and on top */
   .card3 {
-    width: 275px;
+    width: 230px;
     height: 340px;
     border-radius: 4px;
     padding-bottom: 20px;
@@ -1175,7 +1175,7 @@ body {
 
   /* Card image styles */
   .card-img {
-    width: 245px;
+    width: 221px;
     height: 158px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -1185,17 +1185,20 @@ body {
 
   /* Override img sizing for card2 & card3 if needed */
   .card2 .card-img img {
-    width: 82px;
-    height: 134px;
-    margin-left: 160px;
-  }
+        width: 82px;
+        height: 122px;
+        margin-left: 139px;
+    }
+  
 
   .card1 .card-img img {
     padding-left: 0px;
+            margin-top: 30px;
+        width: 145px;
   }
 
   .card3 .card-img {
-    width: 275px;
+    width: 230px;
     height: 193px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -1204,13 +1207,13 @@ body {
   }
 
   .card3 .card-img img {
-    width: 110px;
-    height: 165px;
-    margin: 0 68px;
-  }
+        width: 100px;
+        height: 155px;
+        margin: 0 50px;
+    }
 
   .card-data {
-    width: 269px;
+    width: 221px;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -1221,8 +1224,8 @@ body {
     width: 265px;
     height: 24px;
     font-family: 'font3';
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 18px;
     color: #000;
     padding-left: 9px;
   }
@@ -1238,7 +1241,7 @@ body {
   .location p {
     width: 77px;
     font-family: 'font';
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     color: #444444;
     padding-left: 5px;
@@ -1250,7 +1253,7 @@ body {
     font-size: 13px;
     line-height: 18px;
     color: #ff5220;
-    padding-left: 34px;
+    padding-left: 8px;
     white-space: nowrap;
 
   }
@@ -2108,7 +2111,7 @@ body {
   }
 
   .Vector1 {
-    width: 348px;
+    width: 315px;
     height: 448px;
     max-width: 373px;
     transform: translateX(-15px);
@@ -2117,7 +2120,7 @@ body {
 
   .mask1 {
     position: absolute;
-    top: 20px;
+    top: 35px;
     left: 18px;
     width: 348px;
     max-width: 373px;
@@ -2836,7 +2839,7 @@ body {
 }
 
 .s6heading {
-  width: 550px;
+  width: auto;
   height: 112px;
   font-family: 'font3';
   font-size: 48px;
@@ -2846,6 +2849,7 @@ body {
   align-items: center;
   display: flex;
   position: relative;
+  margin-top: 8px;
 }
 
 .arro {
@@ -4019,38 +4023,39 @@ margin-bottom: 20px;
   }
 
   .text-content h6 {
-    font-size: 39px;
+    font-size: 33px;
     line-height: 55px;
-    width: 370px;
+    width: auto;
     height: 80px;
     text-align: left;
-    /* padding-left: 34px; */
+    padding: 0px 10px;
     /* margin-left: -35px; */
   }
 
   .s8data p {
-    width: 376px;
+    width: auto;
     height: 48px;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     margin-top: 41px;
     /* margin-left: -66px; */
-    padding-left: 0;
+    padding: 0px 10px;
   }
 
 
   .butn {
-    margin: 82px 0 0 0;
+    margin: 82px 0 0 20px;
     justify-content: center;
     /* center buttons horizontally */
     flex-wrap: wrap;
+    
   }
 
   .button2 {
 
 
-    width: 157px;
+    width: 138px;
     height: 47px;
     line-height: 42px;
 
@@ -4059,6 +4064,7 @@ margin-bottom: 20px;
     border-radius: 4px;
     font-family: 'font2';
     font-size: 14px;
+    
   }
 }
 
@@ -4346,9 +4352,9 @@ width: auto;
   }
 
   .icon_txt h6 {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
-    background-color: #F25550;
+    
   }
 
     .sec1 h6,
@@ -4357,7 +4363,7 @@ width: auto;
   .q-1,
   .q-2 {
    height: auto;
-    width: 100%;
+    width: auto;
     
   }
 
@@ -4547,7 +4553,7 @@ width: auto;
     gap: 16px;
     margin: 0px 0 0 0;
     padding-bottom: 8px;
-    gap: 20px;
+    gap: 8px;
   }
 
   .lay1 .butn a {
